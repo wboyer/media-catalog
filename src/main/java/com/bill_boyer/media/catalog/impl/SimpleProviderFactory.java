@@ -14,7 +14,7 @@ public class SimpleProviderFactory implements ProviderFactory
 		return mProviders;
 	}
 
-	public void getProviders(Map<String, Provider> providers)
+	public void setProviders(Map<String, Provider> providers)
 	{
 		mProviders = providers;
 	}
